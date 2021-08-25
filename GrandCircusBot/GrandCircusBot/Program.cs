@@ -47,6 +47,10 @@ class Program
                 case "hello there":
                     outputValue = "General Kenobi\n";
                     break;
+
+                default:
+                    Console.WriteLine("I do not have a response for that.");
+                    break;
             }
 
             Console.WriteLine(outputValue);
